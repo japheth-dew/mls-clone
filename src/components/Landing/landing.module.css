@@ -1,0 +1,6 @@
+.container {
+  background-image: url("../../../public/images/home_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  /* Add other styles as needed */
+}
