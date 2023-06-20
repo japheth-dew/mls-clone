@@ -2,11 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer
-      className=" bg-[#37a000] py-[4em] text-white text-[14px]
-    
-    "
-    >
+    <footer className=" bg-[#37a000] py-[4em] text-white text-[14px]">
       {" "}
       <div
         className="
@@ -20,7 +16,6 @@ const Footer = () => {
     md:w-[80%]
     lg:w-[70%]  
     mx-auto
-    
   "
       >
         <div>
@@ -71,8 +66,9 @@ const Footer = () => {
             entities. MLS.com is independently owned and operated and is not
             affiliated with any of the over 900 local MLS systems. Your use of
             this web site constitutes your acceptance of our Privacy Policy and
-            Terms of Use. Multiple Listing Network&reg; and "MLS.com America's
-            Real Estate Portal" are federally registered Servicemarks.
+            Terms of Use. Multiple Listing Network&reg; and &quot;MLS.com
+            America's Real Estate Portal&quot; are federally registered
+            Servicemarks.
           </p>
         </div>
       </div>
@@ -82,11 +78,10 @@ const Footer = () => {
       text-center
       mt-[5em]
       text-[12px]
-      
       "
       >
-        Multiple Listing Network Copyright 1991 - 2023 | MLS.com America's Real
-        Estate Portal Copyright 2007 - 2023. <br /> All Rights Reserved.
+        Multiple Listing Network Copyright 1991 - 2023 | MLS.com America&apos;s
+        Real Estate Portal Copyright 2007 - 2023. <br /> All Rights Reserved.
       </p>
     </footer>
   );
