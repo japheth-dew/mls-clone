@@ -34,7 +34,7 @@ export default function CountriesSelect() {
         name=""
         id=""
       >
-        {countries.map((country, index) => (
+        {countries.map((country: any, index: number) => (
           <option
             className="
           text-[#00000058] text-[14px] hover:underline cursor-pointer w-full
