@@ -2,21 +2,21 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#37a000] py-[4em] text-white text-[14px]">
+    <footer className="bg-[#37a000] py-[4em] text-white text-[14px]">
       {" "}
       <div
         className="
-  clas
-    grid    
-    grid-cols-2
-    md:grid-cols-3
-    lg:grid-cols-5
-    gap-4
-    w-[90%]
-    md:w-[80%]
-    lg:w-[70%]  
-    mx-auto
-  "
+          clas
+          grid    
+          grid-cols-2
+          md:grid-cols-3
+          lg:grid-cols-5
+          gap-4
+          w-[90%]
+          md:w-[80%]
+          lg:w-[70%]  
+          mx-auto
+        "
       >
         <div>
           <p className="">Company</p>
@@ -53,12 +53,8 @@ const Footer = () => {
             <p className="text-[#ffffff80] hover:underline">Fair Housing</p>
           </div>
         </div>
-        <div
-          className="
-        col-span-2
-        "
-        >
-          <p className="text-[#ffffff80] ">
+        <div className="col-span-2">
+          <p className="text-[#ffffff80]">
             Multiple Listing Network&reg; is the parent company of and DBA
             MLS.com&reg;. Multiple Listing Network&reg; is an independently
             owned and operated Real Estate Advertising and Listing Service
@@ -67,19 +63,12 @@ const Footer = () => {
             affiliated with any of the over 900 local MLS systems. Your use of
             this web site constitutes your acceptance of our Privacy Policy and
             Terms of Use. Multiple Listing Network&reg; and &quot;MLS.com
-            America's Real Estate Portal&quot; are federally registered
+            America&apos;s Real Estate Portal&quot; are federally registered
             Servicemarks.
           </p>
         </div>
       </div>
-      <p
-        className="
-      text-[#ffffff80]
-      text-center
-      mt-[5em]
-      text-[12px]
-      "
-      >
+      <p className="text-[#ffffff80] text-center mt-[5em] text-[12px]">
         Multiple Listing Network Copyright 1991 - 2023 | MLS.com America&apos;s
         Real Estate Portal Copyright 2007 - 2023. <br /> All Rights Reserved.
       </p>
