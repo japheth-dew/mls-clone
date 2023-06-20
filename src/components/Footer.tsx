@@ -64,15 +64,15 @@ const Footer = () => {
         "
         >
           <p className="text-[#ffffff80] ">
-            Multiple Listing Network® is the parent company of and DBA MLS.com®.
-            Multiple Listing Network® is an independently owned and operated
-            Real Estate Advertising and Listing Service Company for real estate
-            firms and other real estate related entities. MLS.com is
-            independently owned and operated and is not affiliated with any of
-            the over 900 local MLS systems. Your use of this web site
-            constitutes your acceptance of our Privacy Policy and Terms of Use.
-            Multiple Listing Network® and "MLS.com America's Real Estate Portal"
-            are federally registered Servicemarks.
+            Multiple Listing Network&reg; is the parent company of and DBA
+            MLS.com&reg;. Multiple Listing Network&reg; is an independently
+            owned and operated Real Estate Advertising and Listing Service
+            Company for real estate firms and other real estate related
+            entities. MLS.com is independently owned and operated and is not
+            affiliated with any of the over 900 local MLS systems. Your use of
+            this web site constitutes your acceptance of our Privacy Policy and
+            Terms of Use. Multiple Listing Network&reg; and "MLS.com America's
+            Real Estate Portal" are federally registered Servicemarks.
           </p>
         </div>
       </div>
