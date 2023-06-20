@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import React from "react";
 import { geoCentroid } from "d3-geo";
 import {
@@ -14,7 +12,7 @@ import allStates from "./data/allstates.json";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
-const offsets = {
+const offsets: { [key: string]: number[] } = {
   VT: [50, -8],
   NH: [34, 2],
   MA: [30, -1],
@@ -59,6 +57,7 @@ const MapChart = () => {
                         subject={centroid}
                         dx={offsets[cur.id][0]}
                         dy={offsets[cur.id][1]}
+                        connectorProps={{ strokeWidth: 0.5 }}
                       >
                         <text x={4} fontSize={14} alignmentBaseline="middle">
                           {cur.id}
